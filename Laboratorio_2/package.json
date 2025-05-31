@@ -1,0 +1,20 @@
+{
+  "name": "laboratorio_2",
+  "version": "1.0.0",
+  "description": "Laboratorio 2",
+  "main": "eslint.config.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint",
+    "start": "node server.js",
+    "test:coverage": "jest --coverage"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.28.0",
+    "express": "^5.1.0",
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
